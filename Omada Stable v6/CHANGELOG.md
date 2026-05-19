@@ -1,6 +1,6 @@
 # Changelog
 
-## [6.2.10.17-patch1] - 2026-05-19
+## 6.2.10.18 - 2026-05-19
 
 ### Fixed
 - **Compatibility**: Added `SYS_RESOURCE` capability to expose the "Protection Mode" user interface toggle. This resolves the critical `MmapAligned() failed` / `tcmalloc` out-of-memory crash loop preventing MongoDB and the Omada Controller from starting on Raspberry Pi 5 (`aarch64`) hardware running Home Assistant OS.
